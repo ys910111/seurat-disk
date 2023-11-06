@@ -340,8 +340,9 @@ setMethod(
     }
     return(invisible(x = NULL))
   }
+}
 )
-
+    
 #' @rdname WriteH5Group
 #'
 #' @examples
