@@ -1,4 +1,4 @@
-Package: SeuratDisk_YE
+Package: SeuratDiskYE
 Type: Package
 Title: Interfaces for HDF5-Based Single Cell File Formats
 Version: 0.0.0.9021
