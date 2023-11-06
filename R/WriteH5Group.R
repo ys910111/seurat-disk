@@ -322,6 +322,14 @@ setMethod(
         if (verbose) {
           message("Writing out ", slot, " for ", name)
         }
+        if (slot == 'fragments'){
+          WriteH5Group(
+          x = slot(object = x, name = slot)[[1]],
+          name = slot,
+          hgroup = xgroup,
+          verbose = verbose
+        )
+        } else {
         WriteH5Group(
           x = slot(object = x, name = slot),
           name = slot,
